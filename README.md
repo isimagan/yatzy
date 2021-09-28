@@ -1,6 +1,6 @@
 
 > Åpne denne siden på [https://isimagan.github.io/yatzy/](https://isimagan.github.io/yatzy/)
-
+> Tutorial [https://makecode.microbit.org/#tutorial:github:isimagan/yatzy/tutorial](https://makecode.microbit.org/#tutorial:github:isimagan/yatzy/tutorial)
 ## Bruk som utvidelse
 
 Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
