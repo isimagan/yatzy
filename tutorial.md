@@ -31,7 +31,7 @@ dinTur = false
 ```
 
 ## Steg 3
-Nå kommer noen blokker vi ikke har brukt før. Trykk på ``Avansert``, og velg ``||variables:sett teksttabell til tabell med "ei / en / ett" "b" "c" - +||``
+Nå kommer noen blokker vi ikke har brukt før. Trykk på ``Avansert`` --> ``Tabeller``, og velg ``||variables:sett teksttabell til tabell med "ei / en / ett" "b" "c" - +||``
 
 ``` blocks
 radio.setGroup(1)
@@ -326,7 +326,7 @@ På menyen ``Bilder`` finner du ``||images:show image myImage at offset 0||``. S
 ![Show image](https://isimagan.github.io/yatzy/img/showImage1.png)
 
 ## Steg 6
-``||variables:myImage||`` finnes ikke, så den må erstattes. Gå til ``Tabeller`` og finn blokken ``||tables:få en tilfeldig verdi fra list||``. Trykk på ``||variables:list||`` og bytt den med ``||variables:terning||``.
+``||variables:myImage||`` finnes ikke, så den må erstattes. Gå til ``Tabeller``, finn blokken ``||tables:få en tilfeldig verdi fra list||`` og dra den til ``||variables:myImage||``. Trykk på ``||variables:list||`` og bytt den med ``||variables:terning||``.
 
 Fullfør med å sette inn en pause på 1 sekund.
 
@@ -406,7 +406,7 @@ Nå skal koden din se slik ut når micro:biten ristes.
 
 ![Når ristes](https://isimagan.github.io/yatzy/img/naarRistes.png)
 
-## Når knapp B trykkes
+## Når knapp B trykkes @showdialog
 Når ``||input:knapp B||`` trykkes skal vi endre hvor mange terninger du vil kaste.
 
 ``` blocks
