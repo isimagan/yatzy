@@ -323,14 +323,14 @@ input.onGesture(Gesture.Shake, function () {
 ## Steg 5
 På menyen ``Bilder`` finner du ``||images:show image myImage at offset 0||``. Sett den inn under ``||basic:pause (ms) 500||``.
 
-![Show image](showImage1.png)
+![Show image](https://isimagan.github.io/yatzy/img/showImage1.png)
 
 ## Steg 6
 ``||variables:myImage||`` finnes ikke, så den må erstattes. Gå til ``Tabeller`` og finn blokken ``||tables:få en tilfeldig verdi fra list||``. Trykk på ``||variables:list||`` og bytt den med ``||variables:terning||``.
 
 Fullfør med å sette inn en pause på 1 sekund.
 
-![Show image](showImage2.png)
+![Show image](https://isimagan.github.io/yatzy/img/showImage2.png)
 
 ## Steg 7a @showhint
 Under ``||loops:gjenta||``-blokken setter vi inn en ``||logic:hvis sann så||``-blokk.
@@ -404,7 +404,7 @@ input.onGesture(Gesture.Shake, function () {
 ## Avslutning når ristes @showdialog
 Nå skal koden din se slik ut når micro:biten ristes.
 
-![Når ristes](naarRistes.png)
+![Når ristes](https://isimagan.github.io/yatzy/img/naarRistes.png)
 
 ## Når knapp B trykkes
 Når ``||input:knapp B||`` trykkes skal vi endre hvor mange terninger du vil kaste.
